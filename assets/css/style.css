@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(214, 214, 214);
+    height: 20vh;
+}
+
+#name {
+    background-color: aquamarine;
+}
+
+#post {
+    background-color: coral;
+}
+
+#tags {
+    background-color: blueviolet;
+}
+
+/* FORMAT TABLETTE */
+@media screen and (min-width: 576px) {}
+
+/* FORMAT DESKTOP */
+@media screen and (min-width: 768px) {
+
+    main {
+        position: relative;
+    }
+
+    #post {
+        width: 64%;
+    }
+
+    #name {
+        position: absolute;
+        height: fit-content;
+        top: 0;
+        right: 0;
+        height: 338px;
+    }
+
+    #tags{
+        position: absolute;
+        right: 0;
+        top: 354px;
+    }
+
+    #name,
+    #tags {
+        width: 34%;
+    }
+}
