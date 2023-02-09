@@ -1,18 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Blog</title>
-</head>
-<body>
-    <header>
+<?php
+include './partials/header.php';
+include_once './partials/header.php';
+?>
+
+<header>
         <h1>MY BLOG</h1>
         <p>lorem</p>
     </header>
-    <main>
+<main>
         <section id="name">
             <div><img src="./assets/img/avatar_g.jpg" alt="">
             </div>
@@ -60,9 +55,8 @@
                 natus neque aliquam?</div>
         </section>
     </main>
-        <footer>
-            blablabla
-        </footer>
-</body>
-
-</html>
+    
+<?php
+include './partials/footer.php';
+?>
+       
